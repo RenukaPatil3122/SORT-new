@@ -10,12 +10,13 @@ import Home from "./components/Home";
 import MarketIndustry from "./components/MarketIndustry";
 import Competitors from "./components/Competitors";
 import BrandHealth from "./components/BrandHealth";
-import Consumers from "./components/Consumers";
+import Consumer from "./components/Consumers";
 import SWOTAnalysis from "./components/SWOTAnalysis";
 import CategoryDynamics from "./components/CategoryDynamics";
 import CompetitiveIntel from "./components/CompetitiveIntel";
 import BrandPerformance from "./components/BrandPerformance";
-import ConsumerInsights from "./components/ConsumerInsights";
+import ConsumerBehavior from "./components/ConsumerBehavior";
+
 
 import AuthForm from "./components/AuthForm";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -45,12 +46,13 @@ function AppContent() {
             <Route path="market-industry" element={<MarketIndustry />} />
             <Route path="competitors" element={<Competitors />} />
             <Route path="brand-health" element={<BrandHealth />} />
-            <Route path="consumers" element={<Consumers />} />
+            <Route path="consumers" element={<Consumer />} />
             <Route path="swot-analysis" element={<SWOTAnalysis />} />
             <Route path="category-dynamics" element={<CategoryDynamics />} />
             <Route path="competitive-intel" element={<CompetitiveIntel />} />
             <Route path="brand-performance" element={<BrandPerformance />} />
-            <Route path="consumer-insights" element={<ConsumerInsights />} />
+            <Route path="consumer-behavior" element={<ConsumerBehavior />} />
+            
           </Route>
 
           {/* <Route path="/auth" element={<AuthForm />} /> */}

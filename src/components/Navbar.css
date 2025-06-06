@@ -5,11 +5,10 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   position: fixed;
   top: 0;
-  left: 16rem; /* space for sidebar */
+  left: 16.0rem; /* space for sidebar */
   right: 0;
   z-index: 10;
-  width: 85%;
-
+  width: calc(100% - 15rem);
   display: flex;
   align-items: center;
   justify-content: space-between;

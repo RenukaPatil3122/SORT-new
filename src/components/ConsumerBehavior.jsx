@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import "./CompetitiveIntel.css";
 
-const MarketIndustry = () => {
+const ConsumerBehavior = () => {
   return (
     // ...existing code...
     <div className="market-container h-auto text-blue-500 p-4  mx-auto bg-purple-50 w-[100%]  grid grid-cols-3 gap-4">
@@ -13,7 +13,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Strategic Pivot Signals</h5>
+        <h5>Inferred Customer Journey Mapping (Online)</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -22,7 +22,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Marketing Message Consistency Score</h5>
+        <h5>Platform Role in Purchase Funnel (Inferred)</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -31,7 +31,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Talent Acquisition Rate (LinkedIn Signal)</h5>
+        <h5>Brand Switching Triggers (Mentioned)</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -40,7 +40,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Innovation Rate Proxy (New Variant/Flavor Launches)</h5>
+        <h5>High-Intent Keyword Performance</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -49,7 +49,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Partnership Network Mapping</h5>
+        <h5>Information Seeking Behavior Patterns</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -58,7 +58,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Customer Service Response Time Estimate (Social)</h5>
+        <h5>Mobile vs. Desktop Interaction Signals (Inferred)</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -67,7 +67,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Website Backlink Quality Profile (Free SEO Tools)</h5>
+        <h5>User Segmentation Proxy (Based on Language/Interests)</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -76,7 +76,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Pricing Strategy Aggressiveness</h5>
+        <h5>Community Engagement Level (Brand Forums/Groups)</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -86,7 +86,7 @@ const MarketIndustry = () => {
         
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Geographic Expansion Momentum</h5>
+        <h5>Purchase Frequency Indicators (Mentions)</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -94,7 +94,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Narrative Control Score</h5>
+        <h5>Basket Composition Clues (Mentions)</h5>
       </motion.div>
 
       <motion.div
@@ -103,7 +103,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Employer Branding Score (Glassdoor Proxy)</h5>
+        <h5>Influence Attribution Guesses (Mentions)</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -111,7 +111,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Technology Adoption Claims</h5>
+        <h5>Return/Refund Issue Mentions</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -119,7 +119,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Vulnerability Index (based on Negative Themes)</h5>
+        <h5>Subscription Interest Signals</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -127,7 +127,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Content Marketing Sophistication</h5>
+        <h5>Accessibility Complaint Frequency</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -135,7 +135,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Social Listening Engagement Level</h5>
+        <h5>Cross-Generational Appeal Signals</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -143,7 +143,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Leadership Visibility & Messaging</h5>
+        <h5>Health Consciousness Spectrum</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -151,7 +151,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Litigation/Regulatory Action Frequency</h5>
+        <h5>Recipe Usage/Integration Mentions</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -159,7 +159,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Channel Conflict Signals</h5>
+        <h5>Comparison with Homemade/Local Alternatives</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -167,7 +167,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor CSR Initiative Authenticity Perception</h5>
+        <h5>Impulse Purchase Indicators</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -175,7 +175,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Share of Shelf Proxy (Top E-comm Platforms)</h5>
+        <h5>Unboxing Experience Mentions</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -183,7 +183,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Influencer Marketing ROI Proxy</h5>
+        <h5>Digital Payment Preference/Issues</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -191,7 +191,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Ad Spend Proxy (Social Ad Library)</h5>
+        <h5>Gift Card/Voucher Mentions</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -199,7 +199,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Product Recall/Quality Issue Frequency</h5>
+        <h5>"Food Hack" Mentions</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -207,7 +207,7 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Niche Targeting Effectiveness</h5>
+        <h5>Cultural Significance Discussions</h5>
       </motion.div>
       <motion.div
         initial={{ scale: 0 }}
@@ -215,12 +215,53 @@ const MarketIndustry = () => {
         className="market-card
         p-4 w-[400px] h-[210px]  border shadow-md"
       >
-        <h5>Competitor Response to Haldiram's Moves</h5>
+        <h5>Information Overload/Simplicity Desire</h5>
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        className="market-card
+        p-4 w-[400px] h-[210px]  border shadow-md"
+      >
+        <h5>Post-Purchase Dissonance Signals</h5>
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        className="market-card
+        p-4 w-[400px] h-[210px]  border shadow-md"
+      >
+        <h5>Trust Indicator Analysis (Reviews)</h5>
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        className="market-card
+        p-4 w-[400px] h-[210px]  border shadow-md"
+      >
+        <h5>Search Behavior Evolution</h5>
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        className="market-card
+        p-4 w-[400px] h-[210px]  border shadow-md"
+      >
+        <h5>Online Community Influence</h5>
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        className="market-card
+        p-4 w-[400px] h-[210px]  border shadow-md"
+      >
+        <h5>Response to Price Increase Justification</h5>
       </motion.div>
     </div>
+// ...existing code...
   );
 // ...existing code...
   
 };
 
-export default MarketIndustry;
+export default ConsumerBehavior;

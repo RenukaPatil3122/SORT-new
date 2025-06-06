@@ -9,7 +9,7 @@ const Dashboard = () => {
     <div className="dashboard-wrapper">
       <Navbar />
       <Sidebar />
-      <div className="ml-[235px] p-4 text-sm leading-6 dashboard-content">
+      <div className="w-[89%] ml-[243px]  text-sm leading-6 dashboard-content">
         <Outlet /> {/* Render child routes here */}
       </div>
     </div>

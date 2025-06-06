@@ -37,14 +37,14 @@ const BrandHealth = () => {
   ];
 
   return (
-    <div className="brand-container h-auto text-blue-700 mx-auto bg-blue-50 p-6 grid grid-cols-3 gap-4">
+    <div className="brand-container h-auto text-blue-700 mx-auto bg-purple-50 w-[100%] p-6 grid grid-cols-3 gap-4">
       {kpis.map((kpi, index) => (
         <motion.div
           key={index}
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="market-card p-4 w-[340px] h-[210px] border shadow-md"
+          className="market-card p-4 w-[400px] h-[210px] border shadow-md"
         >
           <h5>{kpi}</h5>
         </motion.div>
