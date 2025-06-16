@@ -61,10 +61,11 @@ const Sidebar = () => {
       icon: <TrendingUp size={18} />,
     },
     {
-      name: "Consumer Insights",
-      path: "/dash/consumer-insights",
+      name: "Advanced Consumer Behavior",
+      path: "/dash/Consumer-behavior",
       icon: <UserCheck size={18} />,
-    },
+    }
+    
   ];
 
   return (
