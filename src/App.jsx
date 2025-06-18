@@ -16,6 +16,21 @@ import CategoryDynamics from "./components/CategoryDynamics";
 import CompetitiveIntel from "./components/CompetitiveIntel";
 import BrandPerformance from "./components/BrandPerformance";
 import ConsumerInsights from "./components/ConsumerInsights";
+import HighBrandSearchVolumeRankPage from "./pages/SWOTAnalysis/HighBrandSearchVolumeRankPage";
+import PositiveOverallSentimentScorePage from "./pages/SWOTAnalysis/PositiveOverallSentimentScorePage";
+import WideProductRangeVisibilityPage from "./pages/SWOTAnalysis/WideProductRangeVisibilityPage";
+import StrongEcommercePresenceRatingsPage from "./pages/SWOTAnalysis/StrongEcommercePresenceRatingsPage";
+import HighReviewVolumePage from "./pages/SWOTAnalysis/HighReviewVolumePage";
+import KeyNegativeReviewThemesFrequencyPage from "./pages/SWOTAnalysis/KeyNegativeReviewThemesFrequencyPage";
+import LowerEngagementRateVsSelectCompetitorsPage from "./pages/SWOTAnalysis/LowerEngagementRateVsSelectCompetitorsPage";
+import IdentifiedWebsiteUsabilityIssuesPage from "./pages/SWOTAnalysis/IdentifiedWebsiteUsabilityIssuesPage";
+import GapsInOnlineCustomerServiceResponsePage from "./pages/SWOTAnalysis/GapsInOnlineCustomerServiceResponsePage";
+import NegativeNewsSentimentSpikesPage from "./pages/SWOTAnalysis/NegativeNewsSentimentSpikesPage";
+import HighGrowthRateInAdjacentCategoriesPage from "./pages/SWOTAnalysis/HighGrowthRateInAdjacentCategoriesPage";
+import RisingTrendAlignmentPage from "./pages/SWOTAnalysis/RisingTrendAlignmentPage";
+import UnmetNeedsIdentifiedInReviewsPage from "./pages/SWOTAnalysis/UnmetNeedsIdentifiedInReviewsPage";
+import CompetitorWeaknessesIdentifiedPage from "./pages/SWOTAnalysis/CompetitorWeaknessesIdentifiedPage";
+import UntappedGeographicSearchInterestPage from "./pages/SWOTAnalysis/UntappedGeographicSearchInterestPage";
 
 import AuthForm from "./components/AuthForm";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -51,6 +66,21 @@ function AppContent() {
             <Route path="competitive-intel" element={<CompetitiveIntel />} />
             <Route path="brand-performance" element={<BrandPerformance />} />
             <Route path="consumer-insights" element={<ConsumerInsights />} />
+            <Route path="high-brand-search-volume-rank" element={<HighBrandSearchVolumeRankPage />} />
+            <Route path="positive-overall-sentiment-score" element={<PositiveOverallSentimentScorePage />} />
+            <Route path="wide-product-range-visibility" element={<WideProductRangeVisibilityPage />} />
+            <Route path="strong-ecommerce-presence-ratings" element={<StrongEcommercePresenceRatingsPage />} />
+            <Route path="high-review-volume" element={<HighReviewVolumePage />} />
+            <Route path="key-negative-review-themes-frequency" element={<KeyNegativeReviewThemesFrequencyPage />} />
+            <Route path="lower-engagement-rate-vs-select-competitors" element={<LowerEngagementRateVsSelectCompetitorsPage />} />
+            <Route path="identified-website-usability-issues" element={<IdentifiedWebsiteUsabilityIssuesPage />} />
+            <Route path="gaps-in-online-customer-service-response" element={<GapsInOnlineCustomerServiceResponsePage />} />
+            <Route path="negative-news-sentiment-spikes" element={<NegativeNewsSentimentSpikesPage />} />
+            <Route path="high-growth-rate-in-adjacent-categories" element={<HighGrowthRateInAdjacentCategoriesPage />} />
+            <Route path="rising-trend-alignment" element={<RisingTrendAlignmentPage />} />
+            <Route path="unmet-needs-identified-in-reviews" element={<UnmetNeedsIdentifiedInReviewsPage />} />
+            <Route path="competitor-weaknesses-identified" element={<CompetitorWeaknessesIdentifiedPage />} />
+            <Route path="untapped-geographic-search-interest" element={<UntappedGeographicSearchInterestPage />} />
           </Route>
 
           {/* <Route path="/auth" element={<AuthForm />} /> */}
