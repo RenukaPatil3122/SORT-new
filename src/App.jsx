@@ -17,8 +17,8 @@ import CompetitiveIntel from "./components/CompetitiveIntel";
 import BrandPerformance from "./components/BrandPerformance";
 import ConsumerBehavior from "./components/ConsumerBehavior";
 
-
 import AuthForm from "./components/AuthForm";
+import KPIDetail from "./components/kpiDetails"; // ✅ NEW import for dynamic KPI route
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Fragment } from "react";
 import Dashboard from "./pages/Dashboard";
@@ -29,7 +29,7 @@ function AppContent() {
 
   if (isAuthPage) {
     return (
-      <main className=" min-h-screen flex items-center justify-center bg-light-gray-100">
+      <main className="min-h-screen flex items-center justify-center bg-light-gray-100">
         <AuthForm />
       </main>
     );
@@ -38,7 +38,7 @@ function AppContent() {
   return (
     <div>
       {/* This wrapper has left padding to offset the fixed sidebar */}
-      <div className=" min-h-screen">
+      <div className="min-h-screen">
         <Routes>
           <Route path="/" element={<AuthForm />} />
           <Route path="/dash" element={<Dashboard />}>
@@ -52,10 +52,11 @@ function AppContent() {
             <Route path="competitive-intel" element={<CompetitiveIntel />} />
             <Route path="brand-performance" element={<BrandPerformance />} />
             <Route path="consumer-behavior" element={<ConsumerBehavior />} />
-            
-          </Route>
 
-          {/* <Route path="/auth" element={<AuthForm />} /> */}
+            {/* ✅ New Dynamic KPI Detail Routes */}
+            <Route path="brand-performance/:kpiName" element={<KPIDetail />} />
+            <Route path="brand-health/:kpiName" element={<KPIDetail />} />
+          </Route>
         </Routes>
       </div>
     </div>
